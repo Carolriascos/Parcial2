@@ -24,3 +24,23 @@ Registrar el resultado de `npm test`.
 | 3. Si la regla simulada rechaza, conserva active y no guarda. | Pendiente |
 
 Resumen de ejecución: pendiente.
+
+Caso 1
+Get http://localhost:3003/api/reservations/2/ 
+
+{
+    "id": 2,
+    "purpose": "Design review",
+    "participants": 4,
+    "status": "active",
+    "room": {
+        "id": 2,
+        "name": "Room B"
+    }
+}
+
+
+Caso 2
+
+
+
