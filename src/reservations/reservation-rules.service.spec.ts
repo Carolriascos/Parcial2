@@ -23,22 +23,3 @@ describe('ReservationRulesService', () => {
        throw new Error('TODO TEST 1: complete the cancellation rule test');
   });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
