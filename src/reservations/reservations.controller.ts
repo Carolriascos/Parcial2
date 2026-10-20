@@ -14,7 +14,10 @@ create(@Body(requestValidationPipe) dto: CreateReservationDto) {
 }
 
   // TODO 2: Implement PATCH /api/reservations/:id/cancel with ParseIntPipe and no body.
-
+@Patch(':id/reservations' ) 
+reservations(@Param('id', ParseIntPipe) id: number) {
+    return this.reservationsService.cancel  
+}
   // The endpoints below are completed. Do not change them.
   @Get()
   findAll() {

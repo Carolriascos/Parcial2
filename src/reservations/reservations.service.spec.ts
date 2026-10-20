@@ -49,6 +49,9 @@ describe('ReservationsService', () => {
     const savedReservation = { ...reservation, status: 'cancelled' } as ReservationEntity;
 
     // TODO TEST 2: Arrange dependencies, call cancel(7), and check the required behavior.
+        reservationsRepositoryMock.findOne.mockCance(reservation);
+
+        
     throw new Error('TODO TEST 2: complete the successful cancellation test');
   });
 
